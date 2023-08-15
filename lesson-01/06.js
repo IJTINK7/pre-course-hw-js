@@ -3,4 +3,4 @@
 // Если нашел букву "y", то отконсоль "нашел", если не нашел, то"заблудился"
 
 let str = "zzzzyzz";
-console.log(str.includes("y") ? "нашел" : "заблудился")
+str.includes("y") ? console.log("нашел") : console.log("заблудился")
