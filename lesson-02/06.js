@@ -7,7 +7,6 @@ let passportWithAddress = {
     }
 };
 
-console.log(passportWithAddress.address.city)
 const passportWithAddressCopy = {...passportWithAddress, address: {...passportWithAddress.address, city: "Bobryisk"}}
-
-console.log(passportWithAddressCopy.address.city)
+console.log(passportWithAddress)
+console.log(passportWithAddressCopy)
