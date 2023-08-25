@@ -8,5 +8,5 @@ let passportMarried = {
 };
 
 let passportMarried2 = {...passportMarried, married: true, address: {...passportMarried.address}}
-console.log(passportMarried)
+console.log(passportMarried.married)
 console.log(passportMarried2.married)
