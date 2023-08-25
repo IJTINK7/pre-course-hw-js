@@ -3,5 +3,5 @@ let passport = {
     surname: "Petrov",
 };
 const passportCopy = {...passport, name: "Ivan"}
-console.log(passport)
-console.log(passportCopy)
+console.log(passport.name)
+console.log(passportCopy.name)
