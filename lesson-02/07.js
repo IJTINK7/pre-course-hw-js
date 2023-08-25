@@ -9,4 +9,4 @@ let passportMarried = {
 
 let passportMarried2 = {...passportMarried, married: true, address: {...passportMarried.address}}
 console.log(passportMarried)
-console.log(passportMarried2)
+console.log(passportMarried2.married)
